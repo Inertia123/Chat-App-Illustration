@@ -1,0 +1,171 @@
+.chat{
+    padding: 0.6rem;
+    .ch-one{
+        font-size: 0.6rem;
+        background: $Grayish-Blue;
+        padding: 0.5rem;
+        color: $Moderate-Violet;
+        border-radius: 0.8rem 0.8rem 0.8rem 0.4rem;
+        width: 70%;
+    }
+    .ch-two{
+        font-size: 0.6rem;
+        background: $Grayish-Blue;
+        padding: 0.5rem;
+        color: $Moderate-Violet;
+        border-radius: 0.8rem 0.8rem 0.8rem 0.4rem;
+        width: 75%;
+        margin-top: 0.6rem;
+    }
+    .ch-three{
+        margin-top: 1rem;
+        display: flex;
+        width: 100%;
+        gap: 0.6rem;
+        justify-content: flex-end;
+        img{
+            width: 3rem;
+            height: 3rem;
+            border-radius: 1rem;
+        }
+    }
+    .ch-four{
+        font-size: 0.6rem;
+        background: $White;
+        padding: 0.5rem;
+        color: $Desaturated-Dark-Violet;
+        border-radius: 0.8rem 0.8rem 0.4rem 0.8rem ;
+        width: 65%;
+        margin-top: 0.8rem;
+        margin-left: 4.7rem;
+        box-shadow: 0 2px 4px 1px rgba(0,0,0,0.1);
+    }
+    .ch-five{
+        font-size: 0.6rem;
+        background: $White;
+        padding: 0.5rem;
+        color: $Desaturated-Dark-Violet;
+        border-radius: 0.8rem 0.8rem 0.4rem 0.8rem ;
+        width: 50%;
+        margin-top: 0.8rem;
+        box-shadow: 0 2px 4px 1px rgba(0,0,0,0.1);
+        margin-left: 6.7rem;
+    }
+    .ch-six{
+        font-size: 0.6rem;
+        background: $Grayish-Blue;
+        padding: 0.5rem;
+        color: $Moderate-Violet;
+        border-radius: 0.8rem 0.8rem 0.8rem 0.4rem;
+        width: 70%;
+        margin-top: 0.8rem;
+    }
+    .ch-seven{
+        padding: 0.6rem;
+        margin-top: 0.7rem;
+        border-radius: 0.8rem 0.8rem 0.8rem 0.4rem;
+        width: 85%;
+        display: flex;
+        gap: 0.7rem;
+        align-items: center;
+        background: linear-gradient(to right, $Light-Magenta, $Light-Violet);
+        .circle{
+            width: 1.2rem;
+            height:1.2rem;
+            border: 1px solid $Very-Light-Magenta;
+            border-radius: 50%;
+           
+        }
+        .work{
+            font-size: 0.6rem;
+            color: $White;
+            font-weight: 400;
+        }
+        .amount{
+            font-size: 1.2rem;
+            color: $White;
+            font-weight: 700;
+            padding-left: 0.9rem;
+        }
+
+    }
+    .ch-eight{
+        padding: 0.6rem;
+        margin-top: 0.7rem;
+        border-radius: 0.8rem 0.8rem 0.8rem 0.4rem;
+        width: 85%;
+        display: flex;
+        gap: 0.7rem;
+        align-items: center;
+        background: linear-gradient(to right, $Light-Magenta, $Light-Violet);
+        .circle{
+            width: 1.2rem;
+            height:1.2rem;
+            border: 1px solid $Very-Light-Magenta;
+            border-radius: 50%;
+           
+        }
+        .work{
+            font-size: 0.6rem;
+            color: $White;
+            font-weight: 400;
+        }
+        .amount{
+            font-size: 1.2rem;
+            color: $White;
+            font-weight: 700;
+            padding-left: 2rem;
+        }
+
+    }
+    .ch-nine{
+        margin-top: 0.7rem;
+        position: relative;
+        
+        .place{
+            width: 100%;
+            border: none;
+            padding: 0.65rem;
+            border-radius: 2rem;
+            position: absolute;
+            box-shadow: 0 2px 4px 1px rgba(0,0,0,0.1);
+            
+           
+        }
+        ::placeholder{
+            color: $Grayish-Blue;
+            font-size: 0.7rem;
+            background: $White;
+            
+        }
+        .submit{
+            width: 1.8rem;
+            height: 1.8rem;
+            background: $Very-Dark-Desaturated-Violet;
+            position: absolute;
+            border-radius: 50%;
+            right: 0.3rem;
+            top: 0.3rem;
+           &::after{
+               content: '';
+               position: absolute;
+               width: 0.2rem;
+               height: 0.6rem;
+               left: 0.9rem;
+               top: 0.4rem;
+               background: $White;
+               transform: rotate(-45deg);
+           }
+           &::before{
+            content: '';
+            position: absolute;
+            width: 0.2rem;
+            height: 0.6rem;
+            left: 0.9rem;
+            top: 0.7rem;
+            background: $White;
+            transform: rotate(45deg);
+           }
+        }
+    }
+}

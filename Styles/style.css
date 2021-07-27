@@ -1,0 +1,430 @@
+main {
+  position: relative;
+}
+
+main .block {
+  width: 11.5rem;
+  height: 27rem;
+  border-radius: 0 0 50rem 0;
+  background: -webkit-gradient(linear, left top, left bottom, from(#e942ff), to(#8838ff));
+  background: linear-gradient(#e942ff, #8838ff);
+}
+
+section {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+section .mobile {
+  width: 16rem;
+  height: 36rem;
+  background: #f5f3f7;
+  border-radius: 2rem;
+  margin-top: 5rem;
+  border: 0.7rem solid white;
+  -webkit-box-shadow: 0 13px 20px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 13px 20px rgba(0, 0, 0, 0.2);
+}
+
+section .mobile .gradient {
+  width: 100%;
+  position: relative;
+  height: 4.8rem;
+  border-radius: 1rem 1rem 0.5rem 0.5rem;
+  background: -webkit-gradient(linear, left top, right top, from(#8838ff), to(#e942ff));
+  background: linear-gradient(to right, #8838ff, #e942ff);
+}
+
+section .mobile .gradient::before {
+  content: '';
+  position: absolute;
+  width: 60%;
+  height: 1.5rem;
+  background: white;
+  left: 2.9rem;
+  top: -0.1rem;
+  border-radius: 0 0 1rem 1rem;
+}
+
+section .mobile .gradient .arrow {
+  position: absolute;
+  top: 2.9rem;
+  left: 1rem;
+}
+
+section .mobile .gradient .arrow .a1 {
+  width: 0.5rem;
+  height: 0.2rem;
+  background: white;
+  -webkit-transform: rotate(-60deg);
+          transform: rotate(-60deg);
+  position: absolute;
+}
+
+section .mobile .gradient .arrow .a2 {
+  width: 0.5rem;
+  height: 0.2rem;
+  background: white;
+  -webkit-transform: rotate(60deg);
+          transform: rotate(60deg);
+  position: absolute;
+  top: 0.4rem;
+}
+
+section .mobile .gradient .profile {
+  position: absolute;
+  top: 2.2rem;
+  left: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 0.6rem;
+}
+
+section .mobile .gradient .profile img {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  border: 0.1rem solid white;
+}
+
+section .mobile .gradient .profile .name h4 {
+  color: #f5f3f7;
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
+section .mobile .gradient .profile .name p {
+  color: #d89eff;
+  font-size: 0.7rem;
+}
+
+section .mobile .gradient .dots {
+  position: absolute;
+  right: 0.8rem;
+  bottom: 1.2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 0.1rem;
+}
+
+section .mobile .gradient .dots .dot {
+  width: 0.2rem;
+  height: 0.2rem;
+  background: #f5f3f7;
+  border-radius: 50%;
+}
+
+.chat {
+  padding: 0.6rem;
+}
+
+.chat .ch-one {
+  font-size: 0.6rem;
+  background: #c6cacd;
+  padding: 0.5rem;
+  color: #9241c8;
+  border-radius: 0.8rem 0.8rem 0.8rem 0.4rem;
+  width: 70%;
+}
+
+.chat .ch-two {
+  font-size: 0.6rem;
+  background: #c6cacd;
+  padding: 0.5rem;
+  color: #9241c8;
+  border-radius: 0.8rem 0.8rem 0.8rem 0.4rem;
+  width: 75%;
+  margin-top: 0.6rem;
+}
+
+.chat .ch-three {
+  margin-top: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  gap: 0.6rem;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.chat .ch-three img {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 1rem;
+}
+
+.chat .ch-four {
+  font-size: 0.6rem;
+  background: white;
+  padding: 0.5rem;
+  color: #6e5d7e;
+  border-radius: 0.8rem 0.8rem 0.4rem 0.8rem;
+  width: 65%;
+  margin-top: 0.8rem;
+  margin-left: 4.7rem;
+  -webkit-box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.1);
+}
+
+.chat .ch-five {
+  font-size: 0.6rem;
+  background: white;
+  padding: 0.5rem;
+  color: #6e5d7e;
+  border-radius: 0.8rem 0.8rem 0.4rem 0.8rem;
+  width: 50%;
+  margin-top: 0.8rem;
+  -webkit-box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.1);
+  margin-left: 6.7rem;
+}
+
+.chat .ch-six {
+  font-size: 0.6rem;
+  background: #c6cacd;
+  padding: 0.5rem;
+  color: #9241c8;
+  border-radius: 0.8rem 0.8rem 0.8rem 0.4rem;
+  width: 70%;
+  margin-top: 0.8rem;
+}
+
+.chat .ch-seven {
+  padding: 0.6rem;
+  margin-top: 0.7rem;
+  border-radius: 0.8rem 0.8rem 0.8rem 0.4rem;
+  width: 85%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.7rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: -webkit-gradient(linear, left top, right top, from(#e942ff), to(#8838ff));
+  background: linear-gradient(to right, #e942ff, #8838ff);
+}
+
+.chat .ch-seven .circle {
+  width: 1.2rem;
+  height: 1.2rem;
+  border: 1px solid #e570ff;
+  border-radius: 50%;
+}
+
+.chat .ch-seven .work {
+  font-size: 0.6rem;
+  color: white;
+  font-weight: 400;
+}
+
+.chat .ch-seven .amount {
+  font-size: 1.2rem;
+  color: white;
+  font-weight: 700;
+  padding-left: 0.9rem;
+}
+
+.chat .ch-eight {
+  padding: 0.6rem;
+  margin-top: 0.7rem;
+  border-radius: 0.8rem 0.8rem 0.8rem 0.4rem;
+  width: 85%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.7rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: -webkit-gradient(linear, left top, right top, from(#e942ff), to(#8838ff));
+  background: linear-gradient(to right, #e942ff, #8838ff);
+}
+
+.chat .ch-eight .circle {
+  width: 1.2rem;
+  height: 1.2rem;
+  border: 1px solid #e570ff;
+  border-radius: 50%;
+}
+
+.chat .ch-eight .work {
+  font-size: 0.6rem;
+  color: white;
+  font-weight: 400;
+}
+
+.chat .ch-eight .amount {
+  font-size: 1.2rem;
+  color: white;
+  font-weight: 700;
+  padding-left: 2rem;
+}
+
+.chat .ch-nine {
+  margin-top: 0.7rem;
+  position: relative;
+}
+
+.chat .ch-nine .place {
+  width: 100%;
+  border: none;
+  padding: 0.65rem;
+  border-radius: 2rem;
+  position: absolute;
+  -webkit-box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.1);
+}
+
+.chat .ch-nine ::-webkit-input-placeholder {
+  color: #c6cacd;
+  font-size: 0.7rem;
+  background: white;
+}
+
+.chat .ch-nine :-ms-input-placeholder {
+  color: #c6cacd;
+  font-size: 0.7rem;
+  background: white;
+}
+
+.chat .ch-nine ::-ms-input-placeholder {
+  color: #c6cacd;
+  font-size: 0.7rem;
+  background: white;
+}
+
+.chat .ch-nine ::placeholder {
+  color: #c6cacd;
+  font-size: 0.7rem;
+  background: white;
+}
+
+.chat .ch-nine .submit {
+  width: 1.8rem;
+  height: 1.8rem;
+  background: #3e2753;
+  position: absolute;
+  border-radius: 50%;
+  right: 0.3rem;
+  top: 0.3rem;
+}
+
+.chat .ch-nine .submit::after {
+  content: '';
+  position: absolute;
+  width: 0.2rem;
+  height: 0.6rem;
+  left: 0.9rem;
+  top: 0.4rem;
+  background: white;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+
+.chat .ch-nine .submit::before {
+  content: '';
+  position: absolute;
+  width: 0.2rem;
+  height: 0.6rem;
+  left: 0.9rem;
+  top: 0.7rem;
+  background: white;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.text {
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.text h1 {
+  font-size: 2.6rem;
+  color: #3e2753;
+  margin-bottom: 1.5rem;
+  font-weight: 500;
+}
+
+.text p {
+  font-size: 1.1rem;
+  padding: 0 1.8rem;
+  margin-bottom: 4rem;
+  line-height: 1.6rem;
+  color: #a39daa;
+}
+
+@media only screen and (min-width: 768px) {
+  body main .block {
+    position: absolute;
+    width: 30rem;
+    height: 40rem;
+    left: -8rem;
+    border-radius: 0 0 50rem 50rem;
+  }
+  body main section {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  body main section .mobile {
+    width: 18%;
+    -webkit-box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+  }
+  body main section .mobile .chat .ch-four {
+    margin-left: 5.1rem;
+  }
+  body main section .mobile .chat .ch-five {
+    margin-left: 7.3rem;
+  }
+  body main section .text {
+    margin-left: 10rem;
+    width: 32%;
+    text-align: left;
+  }
+  body main section .text p {
+    padding: 0;
+  }
+}
+
+*, ::before, ::after {
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: 'Rubik', sans-serif;
+}
+/*# sourceMappingURL=style.css.map */

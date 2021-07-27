@@ -1,0 +1,9 @@
+main{
+    position: relative;
+    .block{
+        width: 11.5rem;
+        height: 27rem;
+        border-radius: 0 0 50rem 0;
+        background: linear-gradient($Light-Magenta,$Light-Violet);
+    }
+}
